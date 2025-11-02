@@ -1,0 +1,80 @@
+# ========================
+# Python / Poetry
+# ========================
+
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment (Poetry manages this automatically)
+.env/
+.venv/
+venv/
+ENV/
+env/
+.venv*
+
+# Poetry lock and build artifacts
+# (Keep poetry.lock if you want reproducible installs)
+#poetry.lock
+dist/
+build/
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+.notebook_checkpoints/
+
+# ========================
+# Data / Models / Logs
+# ========================
+data/
+datasets/
+logs/
+checkpoints/
+runs/
+outputs/
+models/
+*.h5
+*.pkl
+*.joblib
+*.csv
+*.tsv
+*.npy
+*.npz
+*.onnx
+
+# ========================
+# System files
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# IDE / Editor configs
+# ========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ========================
+# Test / Coverage
+# ========================
+htmlcov/
+.tox/
+.coverage
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# ========================
+# Misc
+# ========================
+*.bak
+*.swp
+*.tmp
